@@ -1,0 +1,38 @@
+*{
+    font-family: "Marcellus SC", cursive;
+}
+body{
+    background-image: url("/img/loginback2.jpg");
+}
+.signupForm{
+    background-color: rgb(59,59,59);
+    margin-left: 350px;
+    margin-top: 170px;
+    padding: 70px;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+}
+.inputs{
+    padding: 10px;
+    margin: 10px 10px;
+    width: 100%;
+    color: rgb(240 242 245);
+    text-align: center;
+    transition-duration: 0.3s;
+}
+.inputs:hover{
+    background-color: rgb(194, 194, 194);
+}
+.signupbtn{
+    padding: 10px;
+    margin: 10px 10px;
+    width: 100%;
+    background-color: rgb(59,59,59);
+    color:rgb(240 242 245);
+    text-align: center;
+    transition-duration: 0.3s;
+}
+.signupbtn:hover{
+    background-color: rgb(0, 13, 190);
+}

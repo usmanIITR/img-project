@@ -1,0 +1,58 @@
+*{
+    font-family: "Marcellus SC", cursive;
+}
+body{
+    background-color: rgb(240 242 245);
+}
+.topbtn:hover{
+    background-color: rgb(0, 13, 190);
+}
+.topbtn{
+    display: inline-block;
+    color: rgb(240 242 245);
+    background-color:rgb(59, 59, 59);
+    border: none;
+    padding: 10px 20px;
+    font-family: "Marcellus SC", cursive;
+    font-size: 20px;
+    text-align: center;
+    transition-duration: 0.3s;
+} 
+.topbuttons{
+    float: right;
+}
+#headname{
+    color: rgb(59, 59, 59);
+    transition-duration: 0.3s;
+}
+#headname:hover{
+    color: rgb(0, 13, 190);
+}
+.one{
+    float: left;
+    width: 30%;
+    padding: 25px;
+}
+/* .one:hover{
+    zoom: 5%;
+} */
+.three::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+div .features{
+    color: rgb(0, 13, 190);
+    text-align: center;
+    padding: 5%;
+}
+div .features:hover{
+    color: rgb(59, 59, 59);
+}
+footer{
+    color: rgb(240 242 245);
+    text-align: center;
+    margin: 15px;
+    background-color: rgb(59, 59, 59);
+    padding: 20px;
+}
